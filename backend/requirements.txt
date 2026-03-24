@@ -1,0 +1,26 @@
+# FastAPI core
+fastapi
+uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# Migrations
+alembic
+
+# Environment variables
+python-dotenv
+
+# Validation / schemas
+pydantic
+
+# Auth (we will use later but add now)
+passlib[bcrypt]
+python-jose[cryptography]
+
+# Async support (important for FastAPI)
+asyncpg
+
+# Optional but useful
+email-validator
